@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.8.2",
     "ag-grid-community": "^34.0.2",
     "ag-grid-react": "^34.0.2",
     "html2canvas": "^1.4.1",
