@@ -1,0 +1,129 @@
+{
+  "name": "John Doe",
+  "rollNo": "S101",
+  "imageUrl": "https://via.placeholder.com/100",
+  "marks": {
+    "1st Year": {
+      "January": [
+        { "subject": "X", "marks": 88 },
+        { "subject": "Y", "marks": 76 },
+        { "subject": "Z", "marks": 91 }
+      ],
+      "February": [
+        { "subject": "X", "marks": 82 },
+        { "subject": "Y", "marks": 74 },
+        { "subject": "Z", "marks": 89 }
+      ],
+      "March": [
+        { "subject": "X", "marks": 79 },
+        { "subject": "Y", "marks": 72 },
+        { "subject": "Z", "marks": 87 }
+      ],
+      "April": [
+        { "subject": "X", "marks": 84 },
+        { "subject": "Y", "marks": 70 },
+        { "subject": "Z", "marks": 85 }
+      ],
+      "May": [
+        { "subject": "X", "marks": 91 },
+        { "subject": "Y", "marks": 73 },
+        { "subject": "Z", "marks": 88 }
+      ],
+      "June": [
+        { "subject": "X", "marks": 77 },
+        { "subject": "Y", "marks": 75 },
+        { "subject": "Z", "marks": 82 }
+      ],
+      "July": [
+        { "subject": "X", "marks": 80 },
+        { "subject": "Y", "marks": 78 },
+        { "subject": "Z", "marks": 86 }
+      ],
+      "August": [
+        { "subject": "X", "marks": 96 },
+        { "subject": "Y", "marks": 70 },
+        { "subject": "Z", "marks": 80 }
+      ],
+      "September": [
+        { "subject": "X", "marks": 85 },
+        { "subject": "Y", "marks": 75 },
+        { "subject": "Z", "marks": 90 }
+      ],
+      "October": [
+        { "subject": "X", "marks": 83 },
+        { "subject": "Y", "marks": 71 },
+        { "subject": "Z", "marks": 84 }
+      ],
+      "November": [
+        { "subject": "X", "marks": 87 },
+        { "subject": "Y", "marks": 73 },
+        { "subject": "Z", "marks": 89 }
+      ],
+      "December": [
+        { "subject": "X", "marks": 90 },
+        { "subject": "Y", "marks": 76 },
+        { "subject": "Z", "marks": 92 }
+      ],
+      "January (Year 2)": [
+        { "subject": "X", "marks": 78 },
+        { "subject": "Y", "marks": 74 },
+        { "subject": "Z", "marks": 88 }
+      ],
+      "February (Year 2)": [
+        { "subject": "X", "marks": 82 },
+        { "subject": "Y", "marks": 70 },
+        { "subject": "Z", "marks": 85 }
+      ],
+      "March (Year 2)": [
+        { "subject": "X", "marks": 84 },
+        { "subject": "Y", "marks": 77 },
+        { "subject": "Z", "marks": 91 }
+      ],
+      "April (Year 2)": [
+        { "subject": "X", "marks": 79 },
+        { "subject": "Y", "marks": 75 },
+        { "subject": "Z", "marks": 86 }
+      ],
+      "May (Year 2)": [
+        { "subject": "X", "marks": 81 },
+        { "subject": "Y", "marks": 72 },
+        { "subject": "Z", "marks": 90 }
+      ],
+      "June (Year 2)": [
+        { "subject": "X", "marks": 85 },
+        { "subject": "Y", "marks": 73 },
+        { "subject": "Z", "marks": 89 }
+      ]
+    }
+  },
+  "feedback": {
+    "1st Year": {
+      "August": "Great performance, keep it up!",
+      "September": "Improved from last month. Good job!"
+    },
+    "2nd Year": {
+      "August": "Great performance, keep it up!",
+      "September": "Improved from last month. Good job!"
+    },
+    "3rd Year": {
+      "August": "Great performance, keep it up!",
+      "September": "Improved from last month. Good job!"
+    },
+    "4th Year": {
+      "August": "Great performance, keep it up!",
+      "September": "Improved from last month. Good job!"
+    },
+    "5th Year": {
+      "August": "Needs improvement in time management."
+    }
+  },
+  "attendance": {
+    "1st Year": {
+      "August": { "present": 22, "total": 26 },
+      "September": { "present": 18, "total": 22 }
+    },
+    "2nd Year": {
+      "August": { "present": 19, "total": 24 }
+    }
+  }
+}
