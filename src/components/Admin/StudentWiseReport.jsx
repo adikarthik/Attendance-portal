@@ -16,6 +16,8 @@ import {
 } from "ag-grid-community";
 import "ag-grid-community/styles/ag-grid.css";
 import "ag-grid-community/styles/ag-theme-alpine.css";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 ModuleRegistry.registerModules([
   ClientSideRowModelModule,
@@ -58,7 +60,7 @@ const StudentWiseReport = () => {
 
   const generateReport = () => {
     if (!selectedStudent || !fromDate || !toDate) {
-      alert("Please select student and date range.");
+      toast.error("⚠️ Please select student and date range.");
       return;
     }
 
@@ -74,6 +76,8 @@ const StudentWiseReport = () => {
       summary: { averageAttendance: avg },
       subjects,
     });
+
+    toast.success("✅ Report generated successfully!");
   };
 
   const resetForm = () => {
@@ -141,6 +145,8 @@ const StudentWiseReport = () => {
 
     doc.save("Student_Report.pdf");
     window.open(doc.output("bloburl"), "_blank");
+
+    toast.success("📄 PDF downloaded successfully!");
   };
 
   const columnDefs = [
@@ -287,6 +293,8 @@ const StudentWiseReport = () => {
           </div>
         </>
       )}
+
+      <ToastContainer position="top-right" autoClose={3000} />
     </div>
   );
 };

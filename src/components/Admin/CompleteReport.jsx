@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import StudentWiseReport from "./StudentWiseReport";
-// import TeacherWiseReport from "./TeacherWiseReport"; // Uncomment if needed
 
 const CompleteReport = () => {
   const [visibleReport, setVisibleReport] = useState("");
@@ -39,9 +38,6 @@ const CompleteReport = () => {
             </div>
           )}
         </div>
-
-        {/* Teacher Wise - optional */}
-        {/* <div>...</div> */}
       </div>
     </div>
   );
