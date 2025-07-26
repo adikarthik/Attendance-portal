@@ -1,0 +1,43 @@
+[
+  {
+    "id": 101,
+    "name": "Ananya Sharma",
+    "phase": "Phase 1",
+    "subjects": [
+      { "name": "Anatomy", "code": "ANAT101", "attendance": 92 },
+      { "name": "Physiology", "code": "PHYS102", "attendance": 88 },
+      { "name": "Biochemistry", "code": "BIOC103", "attendance": 94 },
+      { "name": "Community Medicine", "code": "COMM104", "attendance": 89 },
+      { "name": "Medical Ethics", "code": "ETHC105", "attendance": 90 }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Rahul Verma",
+    "phase": "Phase 2",
+    "subjects": [
+      { "name": "Pharmacology", "code": "PHAR201", "attendance": 85 },
+      { "name": "Pathology", "code": "PATH202", "attendance": 87 },
+      { "name": "Microbiology", "code": "MICR203", "attendance": 89 },
+      { "name": "Forensic Medicine", "code": "FORE204", "attendance": 90 },
+      { "name": "ENT", "code": "ENT205", "attendance": 91 },
+      { "name": "Ophthalmology", "code": "OPHT206", "attendance": 88 }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Neha Singh",
+    "phase": "Phase 3",
+    "subjects": [
+      { "name": "Surgery", "code": "SURG301", "attendance": 92 },
+      { "name": "Medicine", "code": "MEDI302", "attendance": 91 },
+      { "name": "Paediatrics", "code": "PAED303", "attendance": 89 },
+      { "name": "Obstetrics", "code": "OBST304", "attendance": 93 },
+      { "name": "Gynaecology", "code": "GYNA305", "attendance": 90 },
+      { "name": "Psychiatry", "code": "PSYC306", "attendance": 88 },
+      { "name": "Dermatology", "code": "DERM307", "attendance": 87 },
+      { "name": "Radiology", "code": "RADI308", "attendance": 90 },
+      { "name": "Orthopaedics", "code": "ORTH309", "attendance": 89 }
+    ]
+  }
+]

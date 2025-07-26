@@ -9,7 +9,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import jsPDF from "jspdf";
-import studentData from "../data/studentData.json";
+import studentData from "../../data/studentData.json";
 import html2canvas from "html2canvas";
 import Select from "react-select";
 import { AgGridReact } from "ag-grid-react";
