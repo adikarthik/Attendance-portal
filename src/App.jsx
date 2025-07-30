@@ -10,9 +10,8 @@ import AdminDashboard from "./components/Admin/AdminDashboard";
 const App = () => {
   return (
     <Router>
-      
       <Toaster position="top-right" reverseOrder={false} />
-      
+
       <Routes>
         <Route path="/" element={<LoginPage />} />
         <Route path="/student" element={<StudentDashboard />} />
