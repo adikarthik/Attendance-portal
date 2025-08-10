@@ -1,44 +1,25 @@
-import { configureStore } from "@reduxjs/toolkit";
-import attendanceReducer from "../components/Teacher/attendanceSlice";
-import studentReducer from "../components/Student/studentSlice";
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 
-import {
-  persistStore,
-  persistReducer,
-  FLUSH,
-  REHYDRATE,
-  PAUSE,
-  PERSIST,
-  PURGE,
-  REGISTER,
-} from "redux-persist";
-import storage from "redux-persist/lib/storage";
+import LoginPage from "./components/Common/LoginPage";
+import StudentDashboard from "./components/Student/StudentDashboard";
+import TeacherDashboard from "./components/Teacher/TeacherDashboard";
+import AdminDashboard from "./components/Admin/AdminDashboard";
 
-import { combineReducers } from "redux";
+const App = () => {
+  return (
+    <Router>
+      <Toaster position="top-right" reverseOrder={false} />
 
-const rootReducer = combineReducers({
-  attendance: attendanceReducer,
-  student: studentReducer,
-});
-
-const persistConfig = {
-  key: "root",
-  storage,
-  whitelist: ["attendance"], // only persist attendance slice
+      <Routes>
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/student" element={<StudentDashboard />} />
+        <Route path="/teacher" element={<TeacherDashboard />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+      </Routes>
+    </Router>
+  );
 };
 
-const persistedReducer = persistReducer(persistConfig, rootReducer);
-
-export const store = configureStore({
-  reducer: persistedReducer,
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware({
-      serializableCheck: {
-        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
-      },
-    }),
-});
-
-export const persistor = persistStore(store);
-
-export default store;
+export default App;
