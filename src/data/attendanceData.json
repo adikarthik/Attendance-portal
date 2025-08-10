@@ -1,0 +1,61 @@
+{
+  "phases": [1, 2, 3],
+  "subjects": {
+    "1": ["Dravyaguna", "Rachana", "Kriya"],
+    "2": ["Roga Nidan", "Rasashastra"],
+    "3": ["Kayachikitsa", "Panchakarma"]
+  },
+  "studentsByPhase": {
+    "1": [
+      { "id": 101, "name": "John" },
+      { "id": 102, "name": "Asha" },
+      { "id": 103, "name": "Vikram" },
+      { "id": 104, "name": "Divya" },
+      { "id": 105, "name": "Rahul" },
+      { "id": 106, "name": "Meena" },
+      { "id": 107, "name": "Kiran" },
+      { "id": 108, "name": "Pooja" },
+      { "id": 109, "name": "Aman" },
+      { "id": 110, "name": "Sneha" },
+      { "id": 111, "name": "Ajay" },
+      { "id": 112, "name": "Sanya" },
+      { "id": 113, "name": "Farhan" },
+      { "id": 114, "name": "Rekha" },
+      { "id": 115, "name": "Yash" }
+    ],
+    "2": [
+      { "id": 201, "name": "David" },
+      { "id": 202, "name": "Sara" },
+      { "id": 203, "name": "Nikhil" },
+      { "id": 204, "name": "Priya" },
+      { "id": 205, "name": "Anjali" },
+      { "id": 206, "name": "Manoj" },
+      { "id": 207, "name": "Kavya" },
+      { "id": 208, "name": "Suresh" },
+      { "id": 209, "name": "Ritu" },
+      { "id": 210, "name": "Gaurav" },
+      { "id": 211, "name": "Nisha" },
+      { "id": 212, "name": "Raj" },
+      { "id": 213, "name": "Komal" },
+      { "id": 214, "name": "Deepak" },
+      { "id": 215, "name": "Isha" }
+    ],
+    "3": [
+      { "id": 301, "name": "Ravi" },
+      { "id": 302, "name": "Sneha" },
+      { "id": 303, "name": "Arjun" },
+      { "id": 304, "name": "Neha" },
+      { "id": 305, "name": "Vinay" },
+      { "id": 306, "name": "Preeti" },
+      { "id": 307, "name": "Harish" },
+      { "id": 308, "name": "Anita" },
+      { "id": 309, "name": "Tushar" },
+      { "id": 310, "name": "Rina" },
+      { "id": 311, "name": "Karthik" },
+      { "id": 312, "name": "Madhu" },
+      { "id": 313, "name": "Sunil" },
+      { "id": 314, "name": "Bhavna" },
+      { "id": 315, "name": "Zaid" }
+    ]
+  }
+}
